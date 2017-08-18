@@ -1,0 +1,26 @@
+{
+  "name": "COMPET-Bot",
+  "version": "1.0.0",
+  "description": "Chatbot para pagina do Facebook do COMPET",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferreiraalves/ChatBot-Compet-Facebook.git"
+  },
+  "keywords": [
+    "chatbot",
+    "blip",
+    "compet"
+  ],
+  "author": "ferreiraalves",
+  "license": "MIT",
+  "dependencies": {
+    "lime-transport-websocket": "^2.0.2",
+    "messaginghub-client": "^3.3.0",
+    "express": "4.15.2"
+  }
+}
